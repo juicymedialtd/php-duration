@@ -310,9 +310,8 @@ class Duration
     private function output()
     {
         $out = $this->output;
-
-        $this->reset();
-
+        $this->output = '';
+        
         return $out;
     }
 }
